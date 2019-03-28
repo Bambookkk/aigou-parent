@@ -8,6 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
 
     <artifactId>aigou_plat_service</artifactId>
 
@@ -33,12 +34,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <!--热启动，开发工具的依赖-->
+
+        <!--config客户端-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-            <scope>true</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
         <!--swagger的支持-->
@@ -53,6 +53,14 @@
             <version>2.9.2</version>
         </dependency>
 
+        <!--热启动，开发工具的依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+            <scope>true</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -64,6 +72,13 @@
                     <!--fork :  如果没有该项配置，可能devtools不会起作用，即应用不会restart -->
                     <fork>true</fork>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal><!--打包成springboot形式的包-->
+                        </goals>
+                    </execution>
+                </executions>
                 <version>2.0.5.RELEASE</version>
             </plugin>
         </plugins>
