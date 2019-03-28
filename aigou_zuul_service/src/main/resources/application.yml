@@ -1,0 +1,18 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: MICROSERVICE-ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527 #显示的名字而已
+    prefer-ip-address: true  #注册中心左下角现实ip
+zuul:
+  routes:
+    wbUser.serviceId: user-provider  #服务提供者的服务名
+    wbUser.path: /user/**   #访问的时候，是/xxx打头的地址，就使用user-provider来响应 做映射：解决地址太长了，服务名的暴露的问题
+  ignored-services: "*"   #不能直接使用服务名访问了:如果有很多，可以直接使用*忽略所有
+  prefix: "/aigou"  # 前缀
