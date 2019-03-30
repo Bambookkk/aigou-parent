@@ -14,9 +14,9 @@ public class LoginController {
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public AjaxResult login(@RequestBody User user){
         System.out.println(user);
-        if(user!=null&& !StringUtils.isEmpty(user.getName())&&!StringUtils.isEmpty(user.getPassword())){
-            if("admin".equals(user.getName())&&"admin".equals(user.getPassword())){
-                return AjaxResult.me().setMsg("登录成功");
+        if(user!=null&& !StringUtils.isEmpty(user.getUsername())&&!StringUtils.isEmpty(user.getPassword())){
+            if("admin".equals(user.getUsername())&&"123456".equals(user.getPassword())){
+                return AjaxResult.me().setMsg("登录成功").setObject(user);
             }
         }
         return AjaxResult.me().setMsg("登录失败").setSuccess(false);

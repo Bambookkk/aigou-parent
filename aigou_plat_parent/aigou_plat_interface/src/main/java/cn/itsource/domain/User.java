@@ -2,14 +2,14 @@ package cn.itsource.domain;
 
 public class User {
     private Long id;
-    private String name;
+    private String username;
     private String password;
     public User() {
     }
 
-    public User(Long id, String name) {
+    public User(Long id, String username) {
         this.id = id;
-        this.name = name;
+        this.username = username;
     }
 
     public String getPassword() {
@@ -28,19 +28,19 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 '}';
     }
