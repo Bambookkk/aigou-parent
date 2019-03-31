@@ -14,6 +14,8 @@
         <module>aigou_basic_parent</module>
         <module>aigou_zuul_service</module>
         <module>aigou_config_service</module>
+        <module>aigou_generator</module>
+        <module>aigou_product_parent</module>
     </modules>
 
     <properties>
