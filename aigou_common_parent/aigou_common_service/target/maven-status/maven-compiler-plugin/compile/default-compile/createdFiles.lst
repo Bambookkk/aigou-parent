@@ -1,0 +1,4 @@
+cn\itsource\aigou\redis\config\Swagger2.class
+cn\itsource\aigou\redis\controller\RedisController.class
+cn\itsource\aigou\redis\util\RedisUtil.class
+cn\itsource\aigou\redis\RedisApplication8005.class

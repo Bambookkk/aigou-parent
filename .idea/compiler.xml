@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aigou_basic_common" />
         <module name="aigou_basic_util" />
+        <module name="aigou_common_interface" />
+        <module name="aigou_common_service" />
         <module name="aigou_config_service" />
         <module name="aigou_eureka_server" />
         <module name="aigou_generator" />
@@ -15,6 +17,8 @@
         <module name="aigou_plat_service" />
         <module name="aigou_product_interface" />
         <module name="aigou_product_service" />
+        <module name="aigou_redis_interface" />
+        <module name="aigou_redis_service" />
         <module name="aigou_zuul_service" />
       </profile>
     </annotationProcessing>
@@ -23,6 +27,9 @@
       <module name="aigou_basic_common" target="1.8" />
       <module name="aigou_basic_parent" target="1.8" />
       <module name="aigou_basic_util" target="1.8" />
+      <module name="aigou_common_interface" target="1.8" />
+      <module name="aigou_common_parent" target="1.8" />
+      <module name="aigou_common_service" target="1.8" />
       <module name="aigou_config_service" target="1.8" />
       <module name="aigou_eureka_server" target="1.8" />
       <module name="aigou_generator" target="1.8" />
@@ -32,6 +39,9 @@
       <module name="aigou_product_interface" target="1.8" />
       <module name="aigou_product_parent" target="1.8" />
       <module name="aigou_product_service" target="1.8" />
+      <module name="aigou_redis_interface" target="1.8" />
+      <module name="aigou_redis_parent" target="1.8" />
+      <module name="aigou_redis_service" target="1.8" />
       <module name="aigou_zuul_service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

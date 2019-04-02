@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/aigou_basic_parent/aigou_basic_common/aigou_basic_common.iml" filepath="$PROJECT_DIR$/aigou_basic_parent/aigou_basic_common/aigou_basic_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou_basic_parent/aigou_basic_parent.iml" filepath="$PROJECT_DIR$/aigou_basic_parent/aigou_basic_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou_basic_parent/aigou_basic_util/aigou_basic_util.iml" filepath="$PROJECT_DIR$/aigou_basic_parent/aigou_basic_util/aigou_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_common_parent/aigou_common_interface/aigou_common_interface.iml" filepath="$PROJECT_DIR$/aigou_common_parent/aigou_common_interface/aigou_common_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_common_parent/aigou_common_parent.iml" filepath="$PROJECT_DIR$/aigou_common_parent/aigou_common_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_common_parent/aigou_common_service/aigou_common_service.iml" filepath="$PROJECT_DIR$/aigou_common_parent/aigou_common_service/aigou_common_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou_config_service/aigou_config_service.iml" filepath="$PROJECT_DIR$/aigou_config_service/aigou_config_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou_eureka_server/aigou_eureka_server.iml" filepath="$PROJECT_DIR$/aigou_eureka_server/aigou_eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/aigou_generator/aigou_generator.iml" filepath="$PROJECT_DIR$/aigou_generator/aigou_generator.iml" />

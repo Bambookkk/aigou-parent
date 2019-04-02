@@ -19,13 +19,6 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-        <!--数据库驱动-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.20</version>
-        </dependency>
-
         <!--springboot的依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,6 +62,14 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
+
+        <!--fastjosn的支持-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
     </dependencies>
 
 </project>

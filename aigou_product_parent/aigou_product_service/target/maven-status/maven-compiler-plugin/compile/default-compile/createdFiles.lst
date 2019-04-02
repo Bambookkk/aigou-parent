@@ -1,0 +1,11 @@
+cn\itsource\aigou\service\impl\BrandServiceImpl.class
+cn\itsource\aigou\service\impl\ProductTypeServiceImpl.class
+cn\itsource\aigou\mapper\BrandMapper.class
+cn\itsource\aigou\service\IProductTypeService.class
+cn\itsource\aigou\web\controller\BrandController.class
+cn\itsource\aigou\config\Swagger2.class
+cn\itsource\aigou\service\IBrandService.class
+cn\itsource\aigou\mapper\ProductTypeMapper.class
+cn\itsource\aigou\web\controller\ProductTypeController.class
+cn\itsource\aigou\ProductApplication8003.class
+cn\itsource\aigou\config\PageInterceptor.class

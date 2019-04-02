@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299 #配置中心地址
+      label: master #分支名
+      name: zuul_application #配置文件名称
+      profile: dev #环境
