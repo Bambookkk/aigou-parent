@@ -11,6 +11,11 @@
 
     <artifactId>aigou_product_interface</artifactId>
 
+    <!--版本控制 统一管理版本-->
+    <properties>
+        <jackson.version>2.6.5</jackson.version>
+    </properties>
+
     <dependencies>
         <!--basic依赖-->
         <dependency>
@@ -45,6 +50,12 @@
             <version>5.1.20</version>
         </dependency>
 
+        <!--前后台日期转换-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

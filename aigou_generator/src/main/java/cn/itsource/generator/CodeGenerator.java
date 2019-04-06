@@ -42,7 +42,7 @@ public class CodeGenerator {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setTablePrefix(new String[] { "t_" });//去掉表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);//表名生成策略：下划线转驼峰
-        strategy.setInclude(new String[]{"t_product_type"}); //需要生成的表:字符串数组，自己增加
+        strategy.setInclude(new String[]{"t_product_ext"}); //需要生成的表:字符串数组，自己增加
         mpg.setStrategy(strategy);
         //2.4 拼接domain、mapper...的包路径
         PackageConfig pc = new PackageConfig();

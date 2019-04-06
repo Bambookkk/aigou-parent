@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPool;
 import java.io.IOException;
 import java.util.Properties;
 
-public class RedisUtil {
+public class RedisUtils {
 
     private static JedisPool jedisPool=null;
     //初始化连接池对象
@@ -20,7 +20,7 @@ public class RedisUtil {
 
         Properties properties = new Properties();
         try {
-            properties.load(RedisUtil.class.getClassLoader().getResourceAsStream("redis.properties"));//解决硬编码问题
+            properties.load(RedisUtils.class.getClassLoader().getResourceAsStream("redis.properties"));//解决硬编码问题
             jedisPool= new JedisPool(poolConfig,properties.getProperty("redis.host"),
                                                 Integer.parseInt(properties.getProperty("redis.port")),
                                                 Integer.parseInt(properties.getProperty("redis.timeout")),

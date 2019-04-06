@@ -12,7 +12,7 @@ public class PageClientFallbackFactory implements FallbackFactory<PageClient> {
         return new PageClient() {
             @Override
             public void createPage(Map<String, Object> params) {
-                System.out.println("该服务已被降级！");
+                System.out.println("此服务已被降级，请稍后再试！");
             }
         };
     }

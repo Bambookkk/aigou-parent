@@ -1,9 +1,7 @@
 package cn.itsource.aigou.controller;
 
 import cn.itsource.aigou.client.PageClient;
-import cn.itsource.aigou.client.RedisClient;
 import cn.itsource.aigou.commom.GlobalConstant;
-import cn.itsource.aigou.util.RedisUtil;
 import cn.itsource.aigou.util.VelocityUtils;
 import org.springframework.web.bind.annotation.*;
 
